@@ -6,5 +6,13 @@ gem 'rails-api'
 gem 'mysql2'
 
 group :development do
+  gem 'guard-rspec', require: false
   gem 'spring'
+  gem 'spring-commands-rspec'
+end
+
+group :development, :test do
+  gem 'database_rewinder'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
 end
