@@ -39,6 +39,7 @@ GEM
     arel (6.0.3)
     builder (3.2.2)
     concurrent-ruby (1.0.1)
+    database_rewinder (0.5.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     factory_girl (4.5.0)
@@ -125,6 +126,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  database_rewinder
   factory_girl_rails
   mysql2
   rails (= 4.2.5.2)
