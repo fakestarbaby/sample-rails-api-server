@@ -5,6 +5,7 @@ ruby '2.3.0'
 gem 'rails', '4.2.5.2'
 gem 'rails-api'
 
+gem 'figaro'
 gem 'mysql2'
 
 group :development do
