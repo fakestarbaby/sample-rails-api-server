@@ -8,3 +8,8 @@ gem 'mysql2'
 group :development do
   gem 'spring'
 end
+
+group :development, :test do
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+end
