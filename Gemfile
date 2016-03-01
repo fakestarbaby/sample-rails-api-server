@@ -6,6 +6,7 @@ gem 'rails-api'
 gem 'mysql2'
 
 group :development do
+  gem 'guard-rspec', require: false
   gem 'spring'
 end
 
