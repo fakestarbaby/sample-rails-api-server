@@ -10,6 +10,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'database_rewinder'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
 end
